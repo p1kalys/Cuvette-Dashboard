@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Kanit:wght@900&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&family=Montserrat:wght@400;700;900&display=swap');
+
+
+.content {
+    display: flex;
+    font-family: DM Sans;
+
+}
+.skilltest {
+    border-left: solid 1px #EBF0F5;
+    width: 63%;
+    padding-left: 40px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.sidebar {
+    width: 17%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    font-size: 16px;
+   
+}
+.syllabus {
+      width: 30%;
+      height: 90vh;
+}
+.sidebarbtn{
+    font-family: DM Sans;
+    margin: 10px;
+    padding-right: 40px;
+    padding-left: 50px;
+    width: 80%;
+    color: #566474;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    letter-spacing: -0.32px;
+    padding: 10px;
+    background-color: white;
+    border: 0px;
+    border-bottom-right-radius: 100px ;
+    border-top-right-radius: 100px ;
+}
+.sidebarbtn:hover{
+    background-color: #F7F8FA;
+}
+.activebtn {
+    background-color: #F7F8FA;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #445EE2;
+}
+.outline {
+    border: solid 1px #EBF0F5;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    
+}
+.update {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 92%;
+
+}
+.quickstats {
+    width: 92%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.graph {
+    width: 92%;
+    padding: 10px;
+    padding-left: 30px;
+    height: 85%;
+    margin-bottom: 10px;
+}
+.grapheading {
+    color: var(--primary-text, #1E272E);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 175% */
+    letter-spacing: -0.32px;
+    padding-top: 30px;
+}
+.graphbody {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#gr {
+    display: flex;
+    padding-right: 80px;
+}
+.ch-gap {
+    padding-left: 600px;
+}
+#gr > p{
+    border-radius: 20px;
+    border: 10px solid #F7F8FA;
+    background-color: #F7F8FA;
+}
+.text {
+    color: var(--secondary-text, #566474);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+    letter-spacing: -0.28px;
+    flex-basis: 40%;
+    margin-top: -25px;
+    margin-bottom: 30px;
+}
+
+.darker {
+    font-weight: 700; 
+}
+.htmllogo {
+    height: 55px;
+    width: 50px;
+}
+
+.icons {
+    border: solid 1px #EBF0F5;
+    padding: 10px;
+    border-radius: 300px;
+    background-color: #F7F8FA;
+    margin-left: 25px;
+}
+.writeup {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10px;
+    color: #222F3E;
+}
+.writeupspan {
+    color: var(--secondary-text, #566474);
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 21.6px */
+    letter-spacing: -0.24px;
+}
+
+.writeupedit {
+    color: var(--primary-text, #1E272E);
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.44px;
+}
+.updatebtndiv {
+    padding: 10px;
+    padding-left: 200px;
+    padding-right: 20px;
+
+}
+.updatebtn{
+    font-size: larger;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(0, 0, 123);
+    border-radius: 10px;
+}
+
+.quickstatbody {
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-bottom: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+}
+.quickstatheading {
+    color: var(--primary-text, #1E272E);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 175% */
+    letter-spacing: -0.32px;
+    margin: 15px;
+}
+
+.statsspan {
+    color: #9EAAB7;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.24px;
+}
+
+.rank {
+    border-right: solid 1px #EBF0F5;
+    margin-right: 10px;
+    padding-right: 50px;
+    padding-left: 10px;
+}
+.percentile {border-right: solid 1px #EBF0F5;
+    margin-right: 10px;
+    padding-right: 50px;
+    padding-left: 10px;
+
+}
+.score {border-right: solid 0px #EBF0F5;
+    margin-right: 10px;
+    padding-right: 50px;
+    padding-left: 10px;
+    
+
+}
+.rightoutbox {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-left: -25px;
+    margin-right: 20px;
+  
+}
+.marks {
+    float: right;
+    color: blue;
+    font-size: 18px;
+    padding-right: 20px;
+}
+

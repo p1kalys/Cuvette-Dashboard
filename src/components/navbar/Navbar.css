@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border-bottom: 1px solid #EBF0F5 ;
+    height: 7%;
+    width: 100%;
+    
+    /* border: solid 2px blue ; */
+}
+.navbarleft {
+    /* border: solid 2px red ; */
+    display: flex;
+    width: 8%;
+    height: 30px;
+    padding-left: 3%;
+    
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1%;
+    flex-shrink: 0;
+    flex-basis: 10%;
+   
+}
+
+.navbarright {
+    /* border: solid 2px red ; */
+    /* width: 10%; */
+    display: flex;
+    width: 30%;
+    height: 30px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 4%;
+    flex-shrink: 0;
+    flex-basis: 80%;
+    justify-content: end;
+    align-items: center;
+    gap: 1%;
+}
+
+h5 {
+    border: 1px solid #EBF0F5;
+    padding: 6px;
+    border-radius: 10px;
+}
+.profileimg {
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+}

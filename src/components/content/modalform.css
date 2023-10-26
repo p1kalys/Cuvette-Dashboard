@@ -1,0 +1,82 @@
+.modal-dialog {
+    margin-left: 400px;
+    margin-top: 150px; 
+}
+
+.modal-title {
+    color: #222F3E;
+    font-family: DM Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.72px;
+    border: none;
+}
+
+.mb-3 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.form-logo {
+    padding-right: 15px;
+    height: 40px;
+}
+
+.lb {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 80%;
+}
+
+.lb > .des {
+    padding-left: 8px;
+    padding-top: 8px;
+    
+}
+
+.numbering {
+    background-color: #142683;
+    margin: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: -8px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 60px;
+    flex-basis: 10%;
+}
+
+
+.forminput {
+         float: right;
+         border: solid 1px #142683;
+         border-radius: 5px;
+         padding:6px;
+         color: #142683;
+         font-weight: bold;
+         height: 20px;
+         width: 60px;
+         align-self: center;
+         flex-basis: 20%;
+     }
+.cancelbtn {
+    background-color: white;
+    border-radius: 5px;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    color: darkblue;
+    border-color: darkblue;
+    
+}
+.savebtn {
+    background-color: darkblue;
+    border-radius: 5px;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    color: white;
+    border-color: darkblue;
+}
